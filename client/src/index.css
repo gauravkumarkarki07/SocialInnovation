@@ -13,5 +13,13 @@ body{
 @layer base {
   :root {
     --radius: 0.5rem;
+    --background-color: #181e2d;
+  }
+}
+
+@layer base{
+  body {
+    background-color: var(--background-color);
+    color: #ffffff;
   }
 }
